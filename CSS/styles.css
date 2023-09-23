@@ -234,3 +234,102 @@ body {
     height: 7em;
 }
 
+.buttonB:hover, .buttonA:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
+    width: 1.1em;
+    height: 1.1em;
+}
+
+.arrow:hover{
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+}
+
+.selectButton:hover, .startButton:hover{
+    cursor: pointer;
+    width: 1.9em;
+    height: 0.6em;
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+}
+
+.bottom{
+    height: 8em;
+    display: flex;
+}
+
+.emptyLeft{
+    width: 7em;
+    height: 9em;
+}
+
+.bottomMiddle{
+    width: 7em;
+    height: 8em;
+}
+
+.ovalButtons{
+    width: 7em;
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.selectButton, .startButton{
+    width: 2em;
+    height: 0.7em;
+    margin: 1.8em 0 0.6em 0.8em;
+    background-color: rgb(12, 12, 12);
+    border-radius: 2em;
+    box-shadow: 0 0 0 0.2em white;
+}
+
+.selectText, .startText{
+    width: 1em;
+    height: 1em;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    margin-left: 0.6em;
+}
+
+.emptyBottom{
+    width: 7em;
+    height: 4em;
+}
+
+
+.aroundDots{
+    width: 7em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.dots{
+    width: 5em;
+    height: 5em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    transform: rotate(-7deg);
+}
+
+.black, .white{
+    width: 0.37em;
+    height: 0.37em;
+    border-radius:50%;
+}
+
+.black{
+    background-color: rgba(45, 42, 42, 0.977);
+    border: 0.01em inset rgba(245, 95, 95, 0.899);
+}
+
+.white{
+    background-color: white;
+    border: 0.08em inset whitesmoke;
+}
