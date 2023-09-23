@@ -1,0 +1,94 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(85, 135, 216, 0.73);
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 21em;
+    height: 36em;
+    background-image: linear-gradient(to bottom, 
+        #fefefe,
+        #ffffff,
+        #f7f7f7,
+        #f4f1ea,
+        #ece8e7,
+        black);
+    border: 0.4em outset black;
+    border-radius: 30em/7em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 0.8em 0.8em 0.8em 0.8em red;
+}
+
+.top{
+    width: 18.6em;
+    height: 16em;
+    background-color: black;
+    margin: 1.2em 1.2em 0 1.2em;
+    border-radius: 0.6em 0.6em 1em 1em;
+}
+.borderTop{
+    width: 18.6em;
+    height: 2em;
+} 
+.borderBottom{
+    width: 18.6em;
+    height: 3.8em;
+    border-radius: 60em/8em;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.color{
+    width: 10.4em;
+    height: 1.7em;
+    background-image: url(../img/logo-color.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.center{
+    width: 18.6em;
+    height: 11em;
+    display: flex;
+}
+.borderRight, .borderLeft{
+    width: 3.3em;
+    height: 11em;
+}
+.screen{
+    width: 12em;
+    height: 11em;
+    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
+}
+.redLight{
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(181, 1, 1), rgb(72, 2, 2));;
+    color: white;
+    margin: 2em 0 0em 0.5em;
+}
+.halfCircle{
+    color: rgb(52, 51, 51);
+    font-size: x-small;
+    margin-left: 2em;
+    margin-top: -1em;
+}
+.power{
+    color: rgb(52, 51, 51);
+    font-size: xx-small;
+    font-weight: bold;
+    margin: 0.5em 0 0 1em;
+}
