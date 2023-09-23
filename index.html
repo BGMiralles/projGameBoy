@@ -4,11 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameBoy</title>
+
+    <link href="CSS/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid" id="entero">
+    <div class="main"id=noColour>
 
+        <div class="top">
+            <div class="borderTop"></div>
+            <div class="center">
+                <div class="borderRight">
+                    <div class="redLight"></div>
+                    <div class="halfCircle">◗◗◗</div>
+                    <div class="power">POWER</div>
+                </div>
+                <div class="screen" id="screenOn"></div>
+                <div class="borderLeft"></div>
+            </div>
+            <div class="borderBottom">
+                <div class="color"></div>
+            </div>
+            
+        </div>
+
+        <div class="logo">
+            <div class="nintendo">Nintendoº</div>
+        </div>
+
+        <div class="middle">
+            <div class="aroundCross">
+                <div class="cross">
+                    <div class="empty"></div>
+                    <div class="arrow arrowTop">▲</div>
+                    <div class="empty"></div>
+                    <div class="arrow arrowLeft">◀</div>
+                    <div class="arrow">⬤</div>
+                    <div class="arrow arrowRight">▶</div>
+                    <div class="empty"></div>
+                    <div class="arrow arrowBottom">▼</div>
+                    <div class="empty"></div>
+                </div>
+            </div>
+            <div class="emptyMiddle"></div>
+            <div class="aroundButtonB">
+                <div class="buttonB">B</div>
+            </div>
+            <div class="emptyRight"></div>
+            <div class="aroundButtonA">
+                <div class="buttonA" onclick="turnScreenOn1()">A</div>
+            </div>
+            <div class="emptyRight"></div>
+        </div>
+
+        <div class="bottom">
+            <div class="emptyLeft"></div>
+            <div class="bottomMiddle">
+                <div class="ovalButtons">
+                    <div class="ovalButton1">
+                        <div class="selectButton" onclick="turnScreenOff()"></div>
+                        <div class="selectText">SELECT</div>
+                    </div>
+                    <div class="ovalButton2">
+                        <div class="startButton" onclick="turnScreenOn()"></div>
+                        <div class="startText">START</div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
     </div>
     
+    <script src="js/main.js"></script>
 </body>
 </html>
