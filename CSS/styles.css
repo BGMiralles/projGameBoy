@@ -100,8 +100,15 @@ body {
     background-color: white;
 }
 
-.turnOn1{
+.turnOnSquirt{
     background-image: url(../img/pokemon-go-squirtle-squad-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.turnOnMario{
+    background-image: url(../img/mario-bros.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
