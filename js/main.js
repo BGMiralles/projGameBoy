@@ -9,7 +9,6 @@ function turnScreenOn(){
     }
     screen.classList.add("turnOn");
     let audio = new Audio();
-    audio.src = "../sound/gameboy-1.mp3";
     audio.play();
 }
 
