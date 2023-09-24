@@ -47,7 +47,7 @@ Enlace a Linkedin:
 ---
 ### Sección de errores
 
-Una de las partes más costosas ha sido el diseño del altavoz, junto con la parte de JS que estoy muy contento con ella. Por falta de tiempo no he podido implementar sonidos cada vez que se realice un cambio en la pantalla asi como que se reinicen los gifs sin necesidad de recargar la web.
+Una de las partes más costosas ha sido el diseño del altavoz, junto con la parte de JS que estoy muy contento con ella. Por falta de tiempo no he podido implementar que los sonidos paren cuando presionamos otro boton asi como que se reinicen los gifs sin necesidad de recargar la web.
 
 ---
 
