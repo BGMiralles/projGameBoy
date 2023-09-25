@@ -1,9 +1,9 @@
 const opciones = ["turnOn", "turnOnSquirt", "turnOnMario"]
+const screen = document.getElementById("screenOn");
 let audio = new Audio();
 
 function turnScreenOn(){
     let audio = document.getElementById("miAudioStart");
-    let screen = document.getElementById("screenOn");
     for(var i =0; i < opciones.length; i++){
         if (opciones[i] == "turnOn" || opciones[i] == "turnOnSquirt" || opciones[i] == "turnOnMario"){
             screen.classList.remove(`${opciones[i]}`);
@@ -15,7 +15,6 @@ function turnScreenOn(){
 
 function turnScreenOnSquirt(){
     let audio = document.getElementById("miAudioA");
-    let screen = document.getElementById("screenOn");
     for(var i =0; i < opciones.length; i++){
         if (opciones[i] == "turnOn" || opciones[i] == "turnOnSquirt" || opciones[i] == "turnOnMario"){
             screen.classList.remove(`${opciones[i]}`);
@@ -27,7 +26,6 @@ function turnScreenOnSquirt(){
 
 function turnScreenOnMario(){
     let audio = document.getElementById("miAudioB");
-    let screen = document.getElementById("screenOn");
     for(var i =0; i < opciones.length; i++){
         if (opciones[i] == "turnOn" || opciones[i] == "turnOnSquirt" || opciones[i] == "turnOnMario"){
             screen.classList.remove(`${opciones[i]}`);
@@ -38,9 +36,8 @@ function turnScreenOnMario(){
 }
 
 function turnScreenOff(){
-    let main = document.getElementById("screenOn");
     for(var i =0; i < opciones.length; i++){
         if (opciones[i] == "turnOn" || opciones[i] == "turnOnSquirt" || opciones[i] == "turnOnMario"){
-            main.classList.remove(`${opciones[i]}`);
+            screen.classList.remove(`${opciones[i]}`);
         }
 }}
