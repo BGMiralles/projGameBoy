@@ -1,342 +1,356 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(85, 135, 216, 0.73);
-    background-image: url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(85, 135, 216, 0.73);
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.main{
-    width: 21em;
-    height: 36em;
-    background-image: linear-gradient(to bottom, 
-        #fefefe,
-        #ffffff,
-        #f7f7f7,
-        #f4f1ea,
-        #ece8e7,
-        black);
-    border: 0.4em outset black;
-    border-radius: 30em/7em;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    box-shadow: 0.8em 0.8em 0.8em 0.8em red;
-}
-
-.top{
-    width: 18.6em;
-    height: 16em;
-    background-color: black;
-    margin: 1.2em 1.2em 0 1.2em;
-    border-radius: 0.6em 0.6em 1em 1em;
-}
-.borderTop{
-    width: 18.6em;
-    height: 2em;
-} 
-.borderBottom{
-    width: 18.6em;
-    height: 3.8em;
-    border-radius: 60em/8em;
-    border-top-left-radius: 0%;
-    border-top-right-radius: 0%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-.color{
-    width: 10.4em;
-    height: 1.7em;
-    background-image: url(../img/logo-color.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.center{
-    width: 18.6em;
-    height: 11em;
-    display: flex;
-}
-.borderRight, .borderLeft{
-    width: 3.3em;
-    height: 11em;
-}
-.screen{
-    width: 12em;
-    height: 11em;
-    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
-}
-.redLight{
-    width: 0.6em;
-    height: 0.6em;
-    border-radius: 50%;
-    background-image: linear-gradient(to right, rgb(181, 1, 1), rgb(72, 2, 2));;
-    color: white;
-    margin: 2em 0 0em 0.5em;
-}
-.halfCircle{
-    color: rgb(52, 51, 51);
-    font-size: x-small;
-    margin-left: 2em;
-    margin-top: -1em;
-}
-.power{
-    color: rgb(52, 51, 51);
-    font-size: xx-small;
-    font-weight: bold;
-    margin: 0.5em 0 0 1em;
+.main {
+  width: 21em;
+  height: 36em;
+  background-image: linear-gradient(
+    to bottom,
+    #fefefe,
+    #ffffff,
+    #f7f7f7,
+    #f4f1ea,
+    #ece8e7,
+    black
+  );
+  border: 0.4em outset black;
+  border-radius: 30em/7em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  box-shadow: 0.8em 0.8em 0.8em 0.8em red;
 }
 
-.turnOn{
-    background-image: url(../img/nintendoLogo.gif);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: white;
+.top {
+  width: 18.6em;
+  height: 16em;
+  background-color: black;
+  margin: 1.2em 1.2em 0 1.2em;
+  border-radius: 0.6em 0.6em 1em 1em;
+}
+.borderTop {
+  width: 18.6em;
+  height: 2em;
+}
+.borderBottom {
+  width: 18.6em;
+  height: 3.8em;
+  border-radius: 60em/8em;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color {
+  width: 10.4em;
+  height: 1.7em;
+  background-image: url(../img/logo-color.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.center {
+  width: 18.6em;
+  height: 11em;
+  display: flex;
+}
+.borderRight,
+.borderLeft {
+  width: 3.3em;
+  height: 11em;
+}
+.screen {
+  width: 12em;
+  height: 11em;
+  background-image: linear-gradient(
+    to right,
+    rgb(125, 124, 124),
+    rgb(52, 51, 51)
+  );
+}
+.redLight {
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, rgb(181, 1, 1), rgb(72, 2, 2));
+  color: white;
+  margin: 2em 0 0em 0.5em;
+}
+.halfCircle {
+  color: rgb(52, 51, 51);
+  font-size: x-small;
+  margin-left: 2em;
+  margin-top: -1em;
+}
+.power {
+  color: rgb(52, 51, 51);
+  font-size: xx-small;
+  font-weight: bold;
+  margin: 0.5em 0 0 1em;
 }
 
-.turnOnSquirt{
-    background-image: url(../img/pokemon-go-squirtle-squad-1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: white;
+.turnOn {
+  background-image: url(../img/nintendoLogo.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
 }
 
-.turnOnMario{
-    background-image: url(../img/mario-bros.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: white;
+.turnOnSquirt {
+  background-image: url(../img/pokemon-go-squirtle-squad-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
 }
 
-.logo{
-    width: 21em;
-    height: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.turnOnMario {
+  background-image: url(../img/mario-bros.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
 }
 
-.nintendo{
-    width: 5.5em;
-    height: 1.2em;
-    border-radius: 1em;
-    border: 0.15em solid black;
-    text-align: center;
-    font-family:sans-serif;
-    font-weight: bold;
-    color: red;
+.logo {
+  width: 21em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
-.middle{
-    height: 7em;
-    display: flex;
+.nintendo {
+  width: 5.5em;
+  height: 1.2em;
+  border-radius: 1em;
+  border: 0.15em solid black;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: red;
 }
 
-.aroundCross{
-    width: 8em;
-    height: 7em;
-    display: flex;
-    align-items: start;
-    justify-content: center;
+.middle {
+  height: 7em;
+  display: flex;
 }
 
-.cross{
-    width: 5.5em;
-    height: 5.5em;
-    margin-left: 0.5em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+.aroundCross {
+  width: 8em;
+  height: 7em;
+  display: flex;
+  align-items: start;
+  justify-content: center;
 }
 
-.arrow, .empty{
-    color: rgb(21, 20, 20);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cross {
+  width: 5.5em;
+  height: 5.5em;
+  margin-left: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.arrow{
-    background-image: linear-gradient(to right, rgb(52, 52, 52), rgb(39, 39, 39));
+.arrow,
+.empty {
+  color: rgb(21, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.arrowTop{
-    border-top: solid 0.2em rgb(33, 33, 33);
-    border-left: solid 0.2em rgb(66, 66, 66);
-    border-right: solid 0.2em rgb(25, 25, 25);
-    border-top-right-radius: 0.3em;
-    border-top-left-radius: 0.3em;
+.arrow {
+  background-image: linear-gradient(to right, rgb(52, 52, 52), rgb(39, 39, 39));
 }
 
-.arrowLeft{
-    border-top: solid 0.2em rgb(70, 70, 70);
-    border-left: solid 0.2em rgb(60, 60, 60);
-    border-bottom: solid 0.2em rgb(22, 22, 22);
-    border-top-left-radius: 0.3em;
-    border-bottom-left-radius: 0.3em;
+.arrowTop {
+  border-top: solid 0.2em rgb(33, 33, 33);
+  border-left: solid 0.2em rgb(66, 66, 66);
+  border-right: solid 0.2em rgb(25, 25, 25);
+  border-top-right-radius: 0.3em;
+  border-top-left-radius: 0.3em;
 }
 
-.arrowBottom{
-    border-bottom: solid 0.2em rgb(22, 22, 22);
-    border-left: solid 0.2em rgb(60, 60, 60);
-    border-right: solid 0.2em rgb(20, 20, 20);
-    border-bottom-right-radius: 0.3em;
-    border-bottom-left-radius: 0.3em;
+.arrowLeft {
+  border-top: solid 0.2em rgb(70, 70, 70);
+  border-left: solid 0.2em rgb(60, 60, 60);
+  border-bottom: solid 0.2em rgb(22, 22, 22);
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
 }
 
-.arrowRight{
-    border-top: solid 0.2em rgb(60, 60, 60);
-    border-right: solid 0.2em rgb(22, 22, 22);
-    border-bottom: solid 0.2em rgb(20, 20, 20);
-    border-top-right-radius: 0.3em;
-    border-bottom-right-radius: 0.3em;  
+.arrowBottom {
+  border-bottom: solid 0.2em rgb(22, 22, 22);
+  border-left: solid 0.2em rgb(60, 60, 60);
+  border-right: solid 0.2em rgb(20, 20, 20);
+  border-bottom-right-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
 }
 
-.emptyMiddle{
-    width: 5em;
-    height: 7em;
+.arrowRight {
+  border-top: solid 0.2em rgb(60, 60, 60);
+  border-right: solid 0.2em rgb(22, 22, 22);
+  border-bottom: solid 0.2em rgb(20, 20, 20);
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
 }
 
-.aroundButtonB, .aroundButtonA{
-    width: 2.5em;
-    height: 6em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.emptyMiddle {
+  width: 5em;
+  height: 7em;
 }
 
-.buttonB, .buttonA{
-    width: 1.2em;
-    height: 1.2em;
-    background-image: linear-gradient(to right, rgb(57, 57, 57), rgb(39, 39, 39));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-    border: 0.06em solid rgba(0, 0, 0, 0.49);
-    border-right: 0.08em solid rgba(0, 0, 0, 0.864);
+.aroundButtonB,
+.aroundButtonA {
+  width: 2.5em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.buttonB{
-    margin-top: 0.5em;
-    box-shadow: 0 0 0 0.2em white;
-    border: 0.01em inset black;
+.buttonB,
+.buttonA {
+  width: 1.2em;
+  height: 1.2em;
+  background-image: linear-gradient(to right, rgb(57, 57, 57), rgb(39, 39, 39));
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  border: 0.06em solid rgba(0, 0, 0, 0.49);
+  border-right: 0.08em solid rgba(0, 0, 0, 0.864);
 }
 
- .buttonA{
-     margin-bottom: 1.2em;
-     box-shadow: 0 0 0 0.2em white;
-     border: 0.01em inset black;
+.buttonB {
+  margin-top: 0.5em;
+  box-shadow: 0 0 0 0.2em white;
+  border: 0.01em inset black;
 }
 
-.emptyRight{
-    width: 1.5em;
-    height: 7em;
+.buttonA {
+  margin-bottom: 1.2em;
+  box-shadow: 0 0 0 0.2em white;
+  border: 0.01em inset black;
 }
 
-.buttonB:hover, .buttonA:hover{
-    cursor: pointer;
-    background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
-    width: 1.1em;
-    height: 1.1em;
+.emptyRight {
+  width: 1.5em;
+  height: 7em;
 }
 
-.arrow:hover{
-    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+.buttonB:hover,
+.buttonA:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
+  width: 1.1em;
+  height: 1.1em;
 }
 
-.selectButton:hover, .startButton:hover{
-    cursor: pointer;
-    width: 1.9em;
-    height: 0.6em;
-    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+.arrow:hover {
+  background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
 }
 
-.bottom{
-    height: 8em;
-    display: flex;
+.selectButton:hover,
+.startButton:hover {
+  cursor: pointer;
+  width: 1.9em;
+  height: 0.6em;
+  background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
 }
 
-.emptyLeft{
-    width: 7em;
-    height: 9em;
+.bottom {
+  height: 8em;
+  display: flex;
 }
 
-.bottomMiddle{
-    width: 7em;
-    height: 8em;
+.emptyLeft {
+  width: 7em;
+  height: 9em;
 }
 
-.ovalButtons{
-    width: 7em;
-    height: 4em;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
+.bottomMiddle {
+  width: 7em;
+  height: 8em;
 }
 
-.selectButton, .startButton{
-    width: 2em;
-    height: 0.7em;
-    margin: 1.8em 0 0.6em 0.8em;
-    background-color: rgb(12, 12, 12);
-    border-radius: 2em;
-    box-shadow: 0 0 0 0.2em white;
+.ovalButtons {
+  width: 7em;
+  height: 4em;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
 }
 
-.selectText, .startText{
-    width: 1em;
-    height: 1em;
-    font-family: sans-serif;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: black;
-    margin-left: 0.6em;
+.selectButton,
+.startButton {
+  width: 2em;
+  height: 0.7em;
+  margin: 1.8em 0 0.6em 0.8em;
+  background-color: rgb(12, 12, 12);
+  border-radius: 2em;
+  box-shadow: 0 0 0 0.2em white;
 }
 
-.emptyBottom{
-    width: 7em;
-    height: 4em;
+.selectText,
+.startText {
+  width: 1em;
+  height: 1em;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: black;
+  margin-left: 0.6em;
 }
 
-
-.aroundDots{
-    width: 7em;
-    height: 8em;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.emptyBottom {
+  width: 7em;
+  height: 4em;
 }
 
-.dots{
-    width: 5em;
-    height: 5em;
-    margin-bottom: 1em;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    transform: rotate(-7deg);
+.aroundDots {
+  width: 7em;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
-.black, .white{
-    width: 0.37em;
-    height: 0.37em;
-    border-radius:50%;
+.dots {
+  width: 5em;
+  height: 5em;
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  transform: rotate(-7deg);
 }
 
-.black{
-    background-color: rgba(45, 42, 42, 0.977);
-    border: 0.01em inset rgba(245, 95, 95, 0.899);
+.black,
+.white {
+  width: 0.37em;
+  height: 0.37em;
+  border-radius: 50%;
 }
 
-.white{
-    background-color: white;
-    border: 0.08em inset whitesmoke;
+.black {
+  background-color: rgba(45, 42, 42, 0.977);
+  border: 0.01em inset rgba(245, 95, 95, 0.899);
+}
+
+.white {
+  background-color: white;
+  border: 0.08em inset whitesmoke;
 }
