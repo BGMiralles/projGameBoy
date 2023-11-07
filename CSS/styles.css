@@ -101,23 +101,23 @@ body {
 }
 
 .turnOn {
-  background-image: url(../img/guapa.gif);
+  background-image: url(../img/nintendoLogo.gif);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: white;
 }
 
 .turnOnSquirt {
-  background-image: url(../img/me-gustas.gif);
+  background-image: url(../img/pokemon-go-squirtle-squad-1.webp);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: white;
 }
 
 .turnOnMario {
-  background-image: url(../img/beso.gif);
+  background-image: url(../img/mario-bros.gif);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-color: white;
 }
 
